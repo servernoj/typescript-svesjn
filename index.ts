@@ -1,5 +1,10 @@
 import './style.css';
 import lodash from 'lodash';
+import { config } from 'dotenv';
+
+config();
+
+console.log('---', process.env.password);
 
 // Write TypeScript code!
 const sourceDiv: HTMLElement = document.getElementById('source');
