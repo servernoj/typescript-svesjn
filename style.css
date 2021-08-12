@@ -1,0 +1,10 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+h3 {
+  margin: 2em auto 0;
+}
+h3.error {
+  color: red;
+}
